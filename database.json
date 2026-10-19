@@ -1,0 +1,28 @@
+{
+    "inventarioBD": [
+        { "id": 1, "modelo": "LEGO Spike Prime", "edades": "10-14 años", "stockTotal": 25 },
+        { "id": 2, "modelo": "mBot v2 (Makeblock)", "edades": "8-12 años", "stockTotal": 15 },
+        { "id": 3, "modelo": "Arduino Starter Kits", "edades": "12-16 años", "stockTotal": 20 },
+        { "id": 4, "modelo": "Bee-Bot / Blue-Bot", "edades": "4-7 años", "stockTotal": 10 },
+        { "id": 5, "modelo": "Kits Micro:bit", "edades": "10-15 años", "stockTotal": 30 }
+    ],
+    "profesores": [
+        "Carlos Ruiz", "Laura Martín", "Javier Fernández", "Elena Gómez"
+    ],
+    "colegios": [
+        "CEIP San José", "IES Cervantes", "Colegio Sagrado Corazón", "Escuela Innova"
+    ],
+    "prestamos": [
+        {
+            "id": "MOV-1001",
+            "profesor": "Carlos Ruiz",
+            "colegio": "CEIP San José",
+            "modelo": "LEGO Spike Prime",
+            "cantidad": 12,
+            "notas": "Cajas numeradas del 1 al 12",
+            "fechaSalida": "2026-06-01T10:00:00.000Z",
+            "fechaDevolucion": null,
+            "estado": "EN USO"
+        }
+    ]
+}
